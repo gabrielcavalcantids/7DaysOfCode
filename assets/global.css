@@ -9,7 +9,6 @@
   --color-p3: #751d1d;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -27,10 +26,6 @@ a {
 span {
   display: inline-block;
 }
-img {
-  display: block;
-  max-width: 100%;
-}
 body {
   background: var(--body-color);
   color: var(--title-color);
@@ -42,5 +37,5 @@ body {
   max-width: 1280px;
   padding: 0 18px;
   margin: 0 auto;
-  text-align:  center;
+  text-align: center;
 }
