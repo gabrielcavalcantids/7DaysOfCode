@@ -1,0 +1,69 @@
+:root {
+  --color-5: #101828;
+  --color-4: #667085;
+  --color-3: #98a2b3;
+  --color-2: #eaecf0;
+  --color-1: #f9fafb;
+  --color-p1: #8e2424;
+  --color-p2: #c4191908;
+  --color-p3: #751d1d;
+}
+
+.intro-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 6rem 0;
+}
+
+.intro-desc span {
+  color: var(--color-p1);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.intro-desc h1 {
+  color: var(--color-5);
+  font-size: 3rem;
+  font-weight: 600;
+}
+.intro-desc p {
+  color: var(--color-4);
+  text-align: center;
+  max-width: 65ch;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+.intro-data {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-bottom: 6rem;
+  gap: 32px;
+}
+
+.intro-data li {
+  flex: 1 1 192px;
+}
+
+.intro-data  span {
+  font-size: 3.75rem;
+  color: var(--color-p1);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.intro-data  h2 {
+  font-size: 1.125rem;
+  color: var(--color-5);
+  font-weight: 500;
+  margin-bottom: 0.50rem;
+}
+
+.intro-data  p {
+  font-size: 1rem;
+  color: var(--color-4);
+  font-weight: 400;
+  max-width: 31ch;
+}

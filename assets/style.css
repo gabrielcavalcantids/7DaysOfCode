@@ -1,8 +1,4 @@
-:root {
-  --body-color: #ffffff;
-  --bg-color2: rgba(196, 25, 25, 0.03);
-  --bg-color3: #F9FAFB;
-  --title-color: #101828;
-  --text-color: #667085;
-  --main-color: #8E2424;
-}
+@import url(./global.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./section-jobs.css);
