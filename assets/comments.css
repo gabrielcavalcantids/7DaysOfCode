@@ -41,3 +41,8 @@
   color:var(--color-3);
 }
 
+@media (max-width: 350px) {
+  .comments-card h2 {
+    font-size: 1.45rem;
+  }
+}

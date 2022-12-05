@@ -1,18 +1,18 @@
 .header {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   padding: 1.656rem 2rem;
 }
-
 .header-logo {
   display: flex;
   align-items: center;
-  flex: 1;
+  flex-grow: 1;
 }
 .header-navbar {
   display: flex;
-  flex: 3;
+  justify-content: space-between;
+  flex-grow: 3;
 }
 
 .header-menu {
@@ -52,4 +52,10 @@
   transition-timing-function: ease;
   transition-delay: 0s;
   transition-property: all;
+}
+
+@media (max-width: 990px) {
+  .header-navbar {
+    display: none;
+  }
 }

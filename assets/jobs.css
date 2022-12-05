@@ -75,3 +75,9 @@
   display: flex;
   gap: 1.5rem;
 }
+
+@media (max-width: 800px) {
+  .jobs {
+    padding-top: 2rem;
+  }
+}

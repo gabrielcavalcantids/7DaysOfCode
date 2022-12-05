@@ -56,3 +56,9 @@
   font-weight: 400;
   max-width: 31ch;
 }
+
+@media (max-width: 800px) {
+  .intro-desc {
+    padding-top: 2rem;
+  }
+}
